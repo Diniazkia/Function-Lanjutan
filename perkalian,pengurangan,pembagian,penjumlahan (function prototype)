@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+
+// ini adalah prototype function
+
+void perkalian ( int angka1, int angka2)
+{
+	cout << (angka1 * angka2);
+}
+
+void pengurangan ( int d, int n)
+{
+	cout << (d - n);
+}
+
+double pembagian ( double a, double b)
+{
+	cout << (a / b);
+}
+
+void penjumlahan ( int y, int z)
+{
+	cout << (y + z);
+}
+
+int main ()
+{
+	cout<<"Hasil fungsi perkalian "<<endl;
+	perkalian (7, 8);
+	cout<<endl;
+	
+	cout<<"Hasil fungsi pengurangan "<<endl;
+	pengurangan (40, 15);
+	cout<<endl;
+	
+	cout<<"Hasil fungsi pembagian "<<endl;
+	pembagian (44.4, 18.6);
+	cout<<endl;
+	
+	cout<<"Hasil fungsi penjumlahan "<<endl;
+	penjumlahan (20, 40);
+	cout<<endl;
+}
